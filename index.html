@@ -24,15 +24,112 @@
             </p>
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
-                    <button>Assistir Trailer</button>
+                    <button class="button">Assistir Trailer</button>
                     <span class="text">Gratuito</span>
                 </li>
                 <li class="hero__content__combos__combo">
-                    <button>Comprar Filme</button>
+                    <button class="button">Comprar Filme</button>
                     <span class="text">A partir de R$ 9,90</span>
                 </li>
             </ul>
         </div>
     </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="cenas" class="shows__tabs__button shows__tabs__button--is-active">
+                Cenas
+            </button>
+            <button data-tab-button="personagens" class="shows__tabs__button">
+                Personagens
+            </button>
+            <button data-tab-button="relacionados" class="shows__tabs__button">
+                Relacionados
+            </button>
+        </nav>
+        <ul data-tab-id="cenas" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/image1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/image2.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/image3.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/image4.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/image5.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/image6.png" alt="">
+            </li>
+        </ul>
+        <ul data-tab-id="personagens" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/persona1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/persona2.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/persona3.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/persona4.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/persona5.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/persona6.png" alt="">
+            </li>
+        </ul>
+        <ul data-tab-id="relacionados" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/relacionados/relacionados1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/relacionados/relacionados2.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/relacionados/relacionados3.png" alt="">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Escolha como assistir</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="./dist/images/planos/plan1.png" alt="">
+                <strong class="title--small">R$ 9,90*</strong>
+                <p class="text">
+                    Tenha acesso ao filme por 24h. Após esse período, perderá o acesso.
+                </p>
+                <button class="button">Compre agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/planos/plan2.png" alt="">
+                <strong class="title--small">R$ 19,90*</strong>
+                <p class="text">
+                    Tenha acesso ao filme e assista quantas vezes quiser, durante 1 mês.
+                </p>
+                <button class="button">Compre agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/planos/plan3.png" alt="">
+                <strong class="title--small">R$ 29,90*</strong>
+                <p class="text">
+                    Tenha acesso vitalício e assista quando e quantas vezes quiser.
+                </p>
+                <button class="button">Compre agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *Pagamento único no cartão de crédito.
+        </p>
+    </section>
+    <script src="./src/main.js"></script>
 </body>
 </html>
