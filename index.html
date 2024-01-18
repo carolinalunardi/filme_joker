@@ -7,13 +7,28 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/jk.png" alt="Logo do Joker">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Comprar</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Ver Trailer</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
                 <img src="./dist/images/hero/logo.png" alt="Logo Joker">
             </h1>
             <h3 class="title--small">
-                2 OSCARS
+                2 OSCARS ®
             </h3>
             <p class="text--big">
                 Durante a década de 1980, um comediante de stand-up fracassado enlouquece e leva uma vida de crime e caos em Gotham City, ao mesmo tempo em que se torna uma infame figura psicopata do crime.
@@ -36,7 +51,10 @@
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button data-tab-button="cenas" class="shows__tabs__button shows__tabs__button--is-active">
+            <button data-tab-button="detalhes" class="shows__tabs__button shows__tabs__button--is-active">
+                Detalhes
+            </button>
+            <button data-tab-button="cenas" class="shows__tabs__button">
                 Cenas
             </button>
             <button data-tab-button="personagens" class="shows__tabs__button">
@@ -46,7 +64,23 @@
                 Relacionados
             </button>
         </nav>
-        <ul data-tab-id="cenas" class="shows__list shows__list--is-active">
+        <ul data-tab-id="detalhes" class="shows__list shows__list--is-active">
+            <li class="shows__list__item shows__list__item__content">
+                <h2 class="title--xsmall">Classificação do conteúdo</h2>
+                <p class="text--big">Violência, uso de álcool, uso de tabaco, linguagem ofensiva, Conteúdo Sexual</p>
+                <h2 class="title--xsmall">Idiomas de áudio</h2>
+                <p class="text--big">Português, English [Audio Description], English</p>
+                <h2 class="title--xsmall">Legendas</h2>
+                <p class="text--big">Português (Brasil) [SDH], Português (Portugal), English [CC]</p>
+                <h2 class="title--xsmall">Diretor</h2>
+                <p class="text--big">Todd Phillips</p>
+                <h2 class="title--xsmall">Produtores</h2>
+                <p class="text--big">Todd Phillips, Richard Baratta, Bruce Berman, Jason Cloth, Bradley Cooper, Joseph Garner, Aaron L. Gilbert, Walter Hamada, Anjay Nagpal, Emma Tillinger Koskoff</p>
+                <h2 class="title--xsmall">Atores principais</h2>
+                <p class="text--big">Joaquin Phoenix, Robert De Niro, Frances Conroy</p>
+            </li>
+        </ul>
+        <ul data-tab-id="cenas" class="shows__list">
             <li class="shows__list__item">
                 <img src="./dist/images/cenas/image1.png" alt="">
             </li>
@@ -130,6 +164,148 @@
             *Pagamento único no cartão de crédito.
         </p>
     </section>
+    <section class="watch-anywhere">
+        <img src="./dist/images/joker_full.png" alt="Joker">
+        <div class="watch-anywhere__text__container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
+            </p>
+        </div>
+    </section>
+    <section class="watch-anywhere">
+        <img src="./dist/images/joker_4k.png" alt="Joker">
+        <div class="watch-anywhere__text__container">
+            <h2 class="title">Baixe o filme Joker</h2>
+            <p class="text--big">
+                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="tv">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="videogames">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Serix X</li>
+                    <li>Xbox Serix S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="celular">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Em que ano o filme se passa?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    1981-82. O cinema visto perto do final do filme está exibindo 'Blow Out'. Este filme foi lançado pela primeira vez em Nova York em julho de 1981. E o cinema parece ser um 'local de luxo' exibindo 'Primeiro ou segundo ' séries de filmes ... Também Arthur e sua mãe têm reprodutores de vídeo e secretárias eletrônicas - o que não é comum nas 'famílias da classe trabalhadora mais baixa' nos anos 70. Poucos personagens usam jeans largos, ternos brilhantes ou têm cabelos longos, eles estavam muito fora de moda nos anos 80. Muitas semelhanças com 'The King Of Comedy', filmado em 1981 e lançado em 1982, também podem ser um indicador de a hora em que está definido. PS: Aleatório, nada específico para apontar, mas o diretor tentou nos fazer acreditar algumas vezes na década de 80, quando os filmes de Charlie Chaplin ainda eram exibidos nos corredores.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Joaquin Phoenix realmente enlouqueceu ao perder 24 Kg de peso?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Em preparação para seu papel, ele perdeu apenas 15 quilos (conforme revelado no The Tonight Show, estrelado por Jimmy Fallon) comendo uma maçã por dia, de acordo com o diretor Todd Phillips. Phoenix revelou que essa é a maneira padrão de perder peso para um papel.<br>
+
+                    Não é incomum que atores dedicados passem por uma perda de peso aparentemente extrema para um papel (o ex-Batman Christian Bale em 'The Machinist', por exemplo). Por causa dos custos envolvidos na produção desses filmes, requisitos de seguro e em parte devido à morte dos registros de Heath depois de interpretar o Coringa anteriormente, o bem-estar físico e mental durante o contrato é monitorado de perto pelas produtoras envolvidas. Onde Joaquin foi o mais longe que pôde com o Coringa, Heath foi longe demais, embora isso não tenha sido culpa de Heath (afinal, ele é um ator metódico), então entrar no Coringa foi uma tarefa mentalmente degradante do que se pensava ser possível para ambos. atores envolvidos, Joaquin teve uma atuação mais monitorada, mas principalmente com liberdade e liberdade, enquanto Heath fazia de tudo durante a produção E as filmagens para preservar sua personalidade.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde estão localizadas as escadas do Joker?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    As escadas íngremes estão conectadas às avenidas Shakespeare e Anderson na West 167th Street, na seção Highbridge do Bronx, na cidade de Nova York.
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/jk.png" alt="Logo do Joker">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">
+                        Dispositivos compatíveis
+                    </a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Sobre o serviço</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2023 DX, Warney e The Valter Disnei Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                Este é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço é comercializado por The Valter Disnei Company (Brasil) Ltda., World Trade Center, Av. Das Nações Amigas, 1.200.000, Piso 100, São Paulo/SP – CEP 0000-00, Brasil e CNPJ/M 00.000.000/0004-20
+            </p>
+        </div>
+    </footer>
+
     <script src="./src/main.js"></script>
 </body>
 </html>
